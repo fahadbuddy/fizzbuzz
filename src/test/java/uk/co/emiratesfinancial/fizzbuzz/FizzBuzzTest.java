@@ -76,5 +76,44 @@ public class FizzBuzzTest {
   }
 
 
+  @Test
+  public void testWhen_13_return_Fizz(){
+    // arrange
+    FizzBuzz fb = new FizzBuzz();
+    String expected = "Fizz";
+
+    // act
+    String actual = fb.calculate(13);
+
+    // assert
+    assertEquals(expected, actual);
+  }
+
+  @Test
+  public void testWhen_151_return_Buzz(){
+    // arrange
+    FizzBuzz fb = new FizzBuzz();
+    String expected = "Buzz";
+
+    // act
+    String actual = fb.calculate(151);
+
+    // assert
+    assertEquals(expected, actual);
+  }
+
+  @Test
+  public void testWhen_1351_return_FizzBuzz(){
+    // arrange
+    FizzBuzz fb = new FizzBuzz();
+    String expected = "FizzBuzz";
+
+    // act
+    String actual = fb.calculate(1351);
+
+    // assert
+    assertEquals(expected, actual);
+  }
+
 
 }
