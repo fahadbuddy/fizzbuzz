@@ -1,5 +1,8 @@
 package uk.co.emiratesfinancial.fizzbuzz;
 
+/**
+ * This class return Fizz, Buzz or FizzBuzz depending on the number being divisible by 3, 5 or both.
+ */
 public class FizzBuzz {
   public String calculate(final int number) {
 
